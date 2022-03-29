@@ -45,4 +45,9 @@ class Pokemon{
     }
 }
 
+class Bulbasur extends Pokemon{
+    constructor(props){
+        super(props);
+    }
+}
 obtainPokemons();

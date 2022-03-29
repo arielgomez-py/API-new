@@ -9,15 +9,13 @@ const  obtainPokemons = async() =>{
         const data = await response.json();
         arrayPokemons = data.results;
         console.log(data);
-        let urlImage = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png";
         
-        //obtain image of pokemon
-        let element = document.getElementById("foto").src=urlImage;
-        
-        //obtain name of pokemon
-        //let paragraph = document.getElementById("name");
-        //paragraph.innerText = data.species.name; 
-        
+        //obtain image and name of pokemon
+        let urlImage = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png";
+        let element = document.getElementById("bulbasaur").src=urlImage;
+        let namePokemon = document.getElementById("name_bulbasaur");
+        namePokemon.innerText = data.results[0].name;
+
        
     }
     
@@ -28,5 +26,3 @@ const  obtainPokemons = async() =>{
 }
 
 obtainPokemons();
-
-

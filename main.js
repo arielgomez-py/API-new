@@ -19,32 +19,30 @@ const  obtainPokemons = async() =>{
         let urlImage_2 = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png";
         let element_2 = document.getElementById("ivysaur").src=urlImage_2;
         let namePokemon_2 = document.getElementById("name_ivysaur");
-        namePokemon_2.innerText = data.results[1].name;*/
-
-        class Pokemon{
-            constructor({
-                name,
-                image,
-            })
-            {
-                this.name = name;
-                this.image = image;
-            };
-            getName(name){
-                
-            }
-            getImage(image){
-
-            }
-        }
-
-       
+        namePokemon_2.innerText = data.results[1].name;*/       
     }
     
     // error case
     catch(error){
         console.log(error);
     }    
+}
+
+class Pokemon{
+    constructor({
+        name,
+        image,
+    })
+    {
+        this.name = name;
+        this.image = image;
+    };
+    getName(name){
+        
+    }
+    getImage(image){
+
+    }
 }
 
 obtainPokemons();

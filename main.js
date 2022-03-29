@@ -11,10 +11,32 @@ const  obtainPokemons = async() =>{
         console.log(data);
         
         //obtain image and name of pokemon
-        let urlImage = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png";
-        let element = document.getElementById("bulbasaur").src=urlImage;
-        let namePokemon = document.getElementById("name_bulbasaur");
-        namePokemon.innerText = data.results[0].name;
+        /*let urlImage_1 = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png";
+        let element_1 = document.getElementById("bulbasaur").src=urlImage_1;
+        let namePokemon_1 = document.getElementById("name_bulbasaur");
+        namePokemon_1.innerText = data.results[0].name;
+
+        let urlImage_2 = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png";
+        let element_2 = document.getElementById("ivysaur").src=urlImage_2;
+        let namePokemon_2 = document.getElementById("name_ivysaur");
+        namePokemon_2.innerText = data.results[1].name;*/
+
+        class Pokemon{
+            constructor({
+                name,
+                image,
+            })
+            {
+                this.name = name;
+                this.image = image;
+            };
+            getName(name){
+                
+            }
+            getImage(image){
+
+            }
+        }
 
        
     }

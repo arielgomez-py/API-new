@@ -7,9 +7,25 @@ const  obtainPokemons = async() =>{
 
         //Obtain data
         const data = await response.json();
+        //array containing pokemons objects
         arrayPokemons = data.results;
-        console.log(data);
-        
+        console.log(arrayPokemons); 
+
+        arryIDs =[];// array containind ids of Pokemons names
+
+        //filling the list
+        for(let i = 0; i < arrayPokemons.length; i ++){
+            arryIDs.push("name_" + arrayPokemons[i].name);   
+        }
+
+        for(let i = 0; i < arryIDs.length; i ++){
+            let namePokemon = document.getElementById(arryIDs[i]);
+            console.log(namePokemon);
+            let namePokemonId = document.getElementById(namePokemon);
+            console.log(namePokemonId);
+            namePokemonId.innerHTML= arryIDs[i];
+        }
+
         //obtain image and name of pokemon
         /*let urlImage_1 = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png";
         let element_1 = document.getElementById("bulbasaur").src=urlImage_1;
@@ -37,8 +53,10 @@ class Pokemon{
         this.name = name;
         this.image = image;
     };
-    getName(name){
-        
+    getName(){
+        let namePokemon = document.getElementById("name_bulbasaur");
+        namePokemon = arrayPokemons[1].name;
+        namePokemon.innerText = namePokemon;    
     }
     getImage(image){
 

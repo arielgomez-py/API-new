@@ -21,9 +21,9 @@ const  obtainPokemons = async() =>{
         for(let i = 0; i < arryIDs.length; i ++){
             let namePokemon = document.getElementById(arryIDs[i]);
             console.log(namePokemon);
-            let namePokemonId = document.getElementById(namePokemon);
-            console.log(namePokemonId);
-            namePokemonId.innerHTML= arryIDs[i];
+           
+            
+            //document.getElementById(namePokemon).innerHTML ;
         }
 
         //obtain image and name of pokemon

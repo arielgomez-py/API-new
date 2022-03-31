@@ -17,15 +17,13 @@ const  obtainPokemons = async() =>{
         for(let i = 0; i < arrayPokemons.length; i ++){
             arryIDs.push("name_" + arrayPokemons[i].name);   
         }
-
-        for(let i = 0; i < arryIDs.length; i ++){
-            let namePokemon = document.getElementById(arryIDs[i]);
-            console.log(namePokemon);
-           
-            
-            //document.getElementById(namePokemon).innerHTML ;
+        function mostrarNombre(){
+            for(let i = 0; i < arryIDs.length; i ++){
+                document.getElementById(arryIDs[i]).innerHTML = arrayPokemons[i].name;
+            }
         }
-
+        mostrarNombre();
+        
         //obtain image and name of pokemon
         /*let urlImage_1 = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png";
         let element_1 = document.getElementById("bulbasaur").src=urlImage_1;
@@ -44,7 +42,7 @@ const  obtainPokemons = async() =>{
     }    
 }
 
-class Pokemon{
+/*class Pokemon{
     constructor({
         name,
         image,
@@ -67,5 +65,8 @@ class Bulbasur extends Pokemon{
     constructor(props){
         super(props);
     }
-}
-obtainPokemons();
+}*/
+obtainPokemons(
+    
+);
+

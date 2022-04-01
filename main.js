@@ -23,7 +23,6 @@ const  obtainPokemons = async() =>{
         function mostrarNombre(){
             for(let i = 0; i < arryIDs.length; i ++){
                 document.getElementById(arryIDs[i]).innerHTML = arrayPokemons[i].name;
-                //document.getElementById("wartortle").innerHTML='<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">';
             }
         }
         mostrarNombre();
@@ -31,7 +30,7 @@ const  obtainPokemons = async() =>{
         function showImage(){
             for(let i = 0; i < arrayIdsImg.length; i ++){
                 console.log(arrayIdsImg[i]);
-                //document.getElementById(arrayPokemons[i].name).innerHTML='<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">';
+                document.getElementById(arrayIdsImg[i]).innerHTML= "<img src = https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png>";
                 
             }
         }

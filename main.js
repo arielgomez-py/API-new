@@ -30,7 +30,7 @@ const  obtainPokemons = async() =>{
         function showImage(){
             for(let i = 0; i < arrayIdsImg.length; i ++){
                 console.log(arrayIdsImg[i]);
-                document.getElementById(arrayIdsImg[i]).innerHTML= "<img src = https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png>";
+                document.getElementById(arrayIdsImg[i]).innerHTML= "<img src = https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"+String(i + 1)+".png>";
                 
             }
         }
@@ -52,10 +52,7 @@ const  obtainPokemons = async() =>{
         this.name = name;
         this.image = image;
     };
-    getName(){
-        let namePokemon = document.getElementById("name_bulbasaur");
-        namePokemon = arrayPokemons[1].name;
-        namePokemon.innerText = namePokemon;    
+    getName(){   
     }
     getImage(image){
 

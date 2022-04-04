@@ -45,6 +45,8 @@ article{
     border-radius: 1rem;
     background-color: antiquewhite;
     box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    text-align: center;
+    color: rgb(30, 29, 29);
 }
 
 .picture{
@@ -52,6 +54,3 @@ article{
     height: 80%;
 }
 
-h3{
-    margin-left: 1rem;
-}

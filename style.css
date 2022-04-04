@@ -18,25 +18,21 @@ body{
 }
 
 .container1{
-    background-color: aqua;
     grid-area: container1;
     display: flex;
 }
 
 .container2{
-    background-color: burlywood;
     grid-area: container2;
     display: flex;
 }
 
 .container3{
-    background-color: rgb(51, 246, 113);
     grid-area: container3;
     display: flex;
 }
 
 .container4{
-    background-color: rgb(211, 146, 254);
     grid-area: container4;
     display: flex;
 }
@@ -44,13 +40,18 @@ body{
 article{
     width: 20%;
     height: 14rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 1rem;
-    border-radius: 2rem;
-    border: 1rem;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
 }
 
 .picture{
     width: 90%;
     height: 80%;
+}
+
+h3{
+    margin-left: 1rem;
 }

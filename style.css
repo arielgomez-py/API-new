@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "container1 container2"
+                        "container3 container4";
+    
+}
+
+.container1{
+    background-color: aqua;
+    grid-area: container1;
+    display: flex;
+}
+
+.container2{
+    background-color: burlywood;
+    grid-area: container2;
+    display: flex;
+}
+
+.container3{
+    background-color: rgb(51, 246, 113);
+    grid-area: container3;
+    display: flex;
+}
+
+.container4{
+    background-color: rgb(211, 146, 254);
+    grid-area: container4;
+    display: flex;
+}

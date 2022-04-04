@@ -26,7 +26,7 @@ const  obtainPokemons = async() =>{
             }
         }
         mostrarNombre();
-        
+        //Show image of each pokemon 
         function showImage(){
             for(let i = 0; i < arrayIdsImg.length; i ++){
                 console.log(arrayIdsImg[i]);

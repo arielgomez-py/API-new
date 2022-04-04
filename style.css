@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 
 body{
     display: grid;
@@ -35,4 +38,17 @@ body{
     background-color: rgb(211, 146, 254);
     grid-area: container4;
     display: flex;
+}
+
+article{
+    color: brown;
+    width: 20%;
+    height: 14rem;
+    font-size: 1.2rem;
+}
+
+.picture{
+    width: 90%;
+    height: 8rem;
+    background-color: blue;
 }

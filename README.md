@@ -3,7 +3,7 @@
 ## With this application you cant get basic information (name an picture) about some Pokemons
 
 
-*italicized text*
+*Make this page was a important exercise to learn to work with APIs *
 
 >  **Fundamental steps**
 

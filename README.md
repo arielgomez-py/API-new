@@ -7,11 +7,11 @@
 
 *italicized text*
 
-> blockquote
+>  Fundamental steps
 
-1. First item
-2. Second item
-3. Third item
+1. Make request to API with *fetch* method. 
+2. Create functions to save the names and pictures of 20 Pokemons
+3. Show the final results with HTML and CSS.
 
 - First item
 - Second item

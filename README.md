@@ -3,7 +3,8 @@
 ## With this application you cant get basic information (name an picture) about some Pokemons
 
 
-*Make this page was a important exercise to learn to work with APIs *
+*Make this page was a important exercise to learn to work with APIs,
+a fundamental step in web development. *
 
 >  **Fundamental steps**
 
@@ -19,6 +20,6 @@
 
 ---
 
-[Bulbasur]
+Bulbasur: the first Pokemon
 
 ![Pokemon](http://i.imgur.com/J9ynKU9.png)

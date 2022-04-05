@@ -9,7 +9,6 @@ const  obtainPokemons = async() =>{
         const data = await response.json();
         //array containing pokemons objects
         arrayPokemons = data.results;
-        console.log(arrayPokemons); 
 
         arryIDs = [];// array containing ids of Pokemons names
         arrayIdsImg = []; //array containing ids of pokemons image
@@ -64,7 +63,5 @@ class Bulbasur extends Pokemon{
         super(props);
     }
 }*/
-obtainPokemons(
-    
-);
+obtainPokemons();
 

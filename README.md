@@ -3,11 +3,9 @@
 ## With this application you cant get basic information (name an picture) about some Pokemons
 
 
-**bold text**
-
 *italicized text*
 
->  Fundamental steps
+>  **Fundamental steps**
 
 1. Make request to API with *fetch* method. 
 2. Create functions to save the names and pictures of 20 Pokemons
@@ -23,4 +21,4 @@
 
 [title](https://www.example.com)
 
-![alt text](image.jpg)
+![Pokemon](http://i.imgur.com/J9ynKU9.png)

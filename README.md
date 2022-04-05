@@ -1,7 +1,7 @@
 # API-new
-# H1
-## H2
-### H3
+# This is an application to get information from Pokemons API
+## With this application you cant get basic information (name an picture) about some Pokemons
+
 
 **bold text**
 
